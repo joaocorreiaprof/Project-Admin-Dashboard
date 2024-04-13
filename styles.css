@@ -30,6 +30,9 @@
 
 .header {
   background-color: white;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: repeat(2, 1fr);
   grid-column-start: 2;
   grid-column-end: 5;
   grid-row-start: 1;
@@ -43,6 +46,8 @@
   grid-row-start: 2;
   grid-row-end: 5;
 }
+
+/*Sidebar allign */
 
 .dashboard,
 .home,
@@ -59,4 +64,13 @@
   align-items: center;
   padding: 5%;
   gap: 10px;
+}
+
+/*Header allign*/
+input[type="text"] {
+  background-color: rgb(216, 211, 211);
+  padding: 1px;
+  border: none;
+  border-radius: 10px;
+  font-size: 17px;
 }
