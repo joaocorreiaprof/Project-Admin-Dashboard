@@ -142,32 +142,29 @@ body {
 .content {
   background-color: #e2e8f0;
   display: grid;
-  grid-template-columns: 70% 30%;
+  grid-template-columns: 80% 20%;
+  padding: 30px;
 }
 
-.content-left {
-  padding: 20px;
+.right-content {
+  background-color: bisque;
 }
 
-.content-right {
-  background-color: green;
-}
-
-.content-grid {
-  display: grid;
-  padding: 20px;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(
-    3,
-    206px
-  ); /*Need another way, this one doesnt make the page responsive*/
-  gap: 20px;
+.project-icons {
+  width: 20px;
+  height: 20px;
 }
 
 .projects {
   display: flex;
-  flex-direction: column;
+}
+
+.project {
+  border-left: 7px solid #f59e0b;
+  border-radius: 10px;
+  background-color: white;
   padding: 25px;
-  border: 2px solid grey;
-  border-radius: 20px;
+  margin: 20px;
+  width: 350px;
+  height: 150px;
 }
