@@ -79,12 +79,58 @@ body {
 .my-image {
   width: 50px;
   border-radius: 50px;
+  margin: 0 20px;
 }
 
-.navbar {
+.navbar,
+.left {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 10px 20px;
+}
+
+.form-input {
+  height: 20px;
+  width: 700px;
+  background-color: #e2e8f0;
+  border-radius: 10px;
+  border: 1px solid #e2e8f0;
+  margin-left: 20px;
+  margin-right: 500px;
 }
 
 .welcome {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px 20px;
+}
+
+.my-second-image {
+  width: 65px;
+  border-radius: 50px;
+  margin: 0 20px;
+}
+
+.right {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 20%;
+  margin-right: 40px;
+}
+
+.btn {
+  background-color: #0ea5e9;
+  width: 70px;
+  height: 34px;
+  color: white;
+  border: 1px solid #0ea5e9;
+  border-radius: 20px;
+  font-weight: bold;
 }
 
 .content {
