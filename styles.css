@@ -142,12 +142,8 @@ body {
 .content {
   background-color: #e2e8f0;
   display: grid;
-  grid-template-columns: 80% 20%;
+  grid-template-columns: 70% 30%;
   padding: 30px;
-}
-
-.right-content {
-  background-color: bisque;
 }
 
 .project-icons {
@@ -160,6 +156,10 @@ body {
 }
 
 .project {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
   border-left: 7px solid #f59e0b;
   border-radius: 10px;
   background-color: white;
@@ -167,4 +167,54 @@ body {
   margin: 20px;
   width: 350px;
   height: 150px;
+}
+
+h4 {
+  margin-bottom: 10px;
+}
+
+.icons {
+  display: flex;
+  gap: 20px;
+  justify-content: end;
+  align-items: end;
+  width: 100%;
+  margin-top: 50px;
+}
+
+.right-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.next-projects {
+  background-color: white;
+  padding: 45px 30px;
+  border-radius: 10px;
+}
+
+.trending-projects {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.trend-project {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.next-one {
+  border-bottom: 1px solid rgb(206, 206, 206);
+  width: 350px;
+  margin-bottom: 5px;
+}
+
+.next-one > p {
+  margin-bottom: 15px;
 }
