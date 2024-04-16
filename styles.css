@@ -190,8 +190,9 @@ h4 {
 
 .next-projects {
   background-color: white;
-  padding: 45px 30px;
+  padding: 30px 30px;
   border-radius: 10px;
+  margin-bottom: 27px;
 }
 
 .trending-projects {
@@ -217,4 +218,8 @@ h4 {
 
 .next-one > p {
   margin-bottom: 15px;
+}
+
+.project-margin {
+  margin-bottom: 5px;
 }
